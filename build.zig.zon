@@ -1,0 +1,15 @@
+.{
+    .name = "unishox2-zig",
+    .version = "0.0.1",
+    .dependencies = .{
+        .unishox2 = .{
+            .url = "git+https://github.com/siara-cc/Unishox2#d1abf39772d55325f2b55a9188739d945ddd9daa",
+            .hash = "1220a1629906bc36e8eda0289aeb31b6728adeb0a9fec3609cd77b607a80ac6f025a",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
