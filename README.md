@@ -20,7 +20,7 @@ const mod = unishox2.module("unishox2");
 exe.linkLibrary(btree_zig.artifact("unishox2-zig"));
 ```
 
-### Usage
+## Usage
 
 ```zig
 const origin = "こんにちは";
